@@ -13,4 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/txt_widgets"/>
+
+    <Button
+        android:id="@+id/btn_advanced_widgets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Avanced widgets"/>
 </LinearLayout>
