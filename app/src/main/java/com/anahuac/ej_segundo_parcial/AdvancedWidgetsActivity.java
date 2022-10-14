@@ -31,15 +31,15 @@ public class AdvancedWidgetsActivity extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.menu_favorite:
                         message("Pulsaste favorito");
-                        return true;
+                        break;
                     case R.id.menu_copy:
                         message("Pulsaste copiar");
-                        return true;
+                        break;
                     case R.id.menu_delete:
                         message("Pulsaste eliminar");
-                        return true;
+                        break;
                     default:
-                        return false;
+                        break;
                 }
             }
         });

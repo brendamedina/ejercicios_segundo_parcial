@@ -20,6 +20,8 @@
         <activity
             android:name=".WidgetsActivity"
             android:exported="false" />
+        <activity android:name=".DrawerActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
