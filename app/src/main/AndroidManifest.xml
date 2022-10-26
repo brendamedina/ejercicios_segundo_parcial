@@ -14,14 +14,19 @@
         android:theme="@style/Theme.Ej_segundo_parcial"
         tools:targetApi="31">
         <activity
-            android:label="Advanced Widgets"
-            android:name=".AdvancedWidgetsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".HomeActivity"
             android:exported="false" />
+        <activity
+            android:name=".AdvancedWidgetsActivity"
+            android:exported="false"
+            android:label="Advanced Widgets" />
         <activity
             android:name=".WidgetsActivity"
             android:exported="false" />
-        <activity android:name=".DrawerActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
